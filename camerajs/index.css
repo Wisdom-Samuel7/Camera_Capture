@@ -1,0 +1,39 @@
+*{
+ margin: 0;
+padding: 0;
+outline: none;
+text-decoration: none;
+
+}
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+ flex-direction: column;
+flex-wrap: wrap;
+gap: .2em;
+justify-content: center;
+align-items: center;
+background: cadetblue;
+
+}
+span{
+    margin-right: .5em;
+}
+button{
+ padding: .5em;
+ border: none;
+ border-radius: .5em;
+ background: hotpink;
+ color: aliceblue;
+}
+.btn{
+    visibility: hidden;
+}
+a{
+    margin-top: .5em;
+    color: navy;
+    font-weight: bolder;
+font-family: 'Courier New', Courier, monospace;
+ visibility: hidden;
+}
